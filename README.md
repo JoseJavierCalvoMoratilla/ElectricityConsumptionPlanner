@@ -15,12 +15,14 @@ Each device has an assigned ID:
 | 8  | Tostadora  |
 | 9  | Máquina de café  |
 
+
 Initial configuration is defined:
 | Configuration |
 | ------------- | 
 | Electricifación básica 5,750 KW  |
 | Cuatro franjas por hora  |
 | Tareas simultáneas  | 
+
 
 Each device has an instantaneous consumption in watts with an average duration:
 | Device | W | Tiempo de uso medio |
@@ -38,9 +40,8 @@ Each device has an instantaneous consumption in watts with an average duration:
 | Tostadora  | 850 | 0.1 |
 | Máquina de café  | 800 | 0.1 |
 
-The price per time slot supplied by the electric company is defined.
 
-Each device has an instantaneous consumption in watts with an average duration:
+The price per time slot supplied by the electric company is defined:
 | Hour | price (€) |  Hour | price (€) |
 | ------------- | ------------- | ------------- | ------------- |
 | 0 | 0.16364 | 12 | 0.20769 |
@@ -56,7 +57,16 @@ Each device has an instantaneous consumption in watts with an average duration:
 | 10  | 0.22257 | 22 | 0.22141 |
 | 11  | 0.21475 | 23 | 0.22141 |
 
-# 1. Genetic algorithm
+Solution format (Array 1 dimension)
+| 18 | 21 |  23 | 2 | 11 |
 
+Task selected
+| 2 | 6 |  2 | 1 | 3 |
+
+In the solution array each column corresponds to a specific task and the content is the time to connect a device.
+The tasks are grouped in a task array and identify each of the columns of the problem solution.
+
+
+# 1. Genetic algorithm
 
 # 2. Simulated annealing
