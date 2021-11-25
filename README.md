@@ -1,5 +1,5 @@
-# ElectricityConsumptionPlanner
-Genetic algorithms for planning electricity consumption in a house with basic electrification.
+# Electricity Consumption Planner
+Metaheuristic algorithms for electricity consumption planning in a house with basic electrification.
 
 Each device has an assigned ID:
 | ID | Devices |
@@ -68,7 +68,48 @@ Task selected:
 In the solution array each column corresponds to a specific task and the content is the time to connect a device.
 The tasks are grouped in a task array and identify each of the columns of the problem solution.
 
+| Target function |
+| ------------- | 
+| Minimize the cost of consumption  |
+
+
 
 # 1. Genetic algorithm
 
+| Strategy |
+| ------------- | 
+| Elitist selection |
+| Uniform crossbreeding |
+| bit-by-bit mutation |
+
+
+| Restrictions |
+| ------------- | 
+| Maximum contracted consumption  |
+| Simultaneous device consumption |
+
+
+| Parameters |
+| ------------- | 
+| Number of Iterations |
+| Cooling factor |
+| Initial temperature |
+| Randomness factor |
+| Cooling variant |
+| Upper bound |
+
+
 # 2. Simulated annealing
+
+| Restrictions |
+| ------------- | 
+| Maximum contracted consumption  |
+| Simultaneous device consumption |
+
+
+| Parameters |
+| ------------- | 
+| Number of iterations |
+| Population |
+| Mutation probability |
+| Upper bound |
