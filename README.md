@@ -21,7 +21,7 @@ Genetic algorithms for planning electricity consumption in a house with basic el
 | Tareas simultáneas  | 
 
 | Device | W | Tiempo de uso medio |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- |
 | Horno | 1200 | 0.75 |
 | Cocina  | 1000 | 0.75 |
 | Nevera  | 120 | 24 |
