@@ -57,11 +57,13 @@ The price per time slot supplied by the electric company is defined:
 | 10  | 0.22257 | 22 | 0.22141 |
 | 11  | 0.21475 | 23 | 0.22141 |
 
-Solution format (Array 1 dimension)
+Solution format (Array 1 dimension):
 | 18 | 21 |  23 | 2 | 11 |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
 
-Task selected
+Task selected:
 | 2 | 6 |  2 | 1 | 3 |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
 
 In the solution array each column corresponds to a specific task and the content is the time to connect a device.
 The tasks are grouped in a task array and identify each of the columns of the problem solution.
